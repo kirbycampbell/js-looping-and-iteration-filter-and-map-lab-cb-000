@@ -5,7 +5,7 @@ function driversWithRevenueOver(collection, num){
   });
 }
 function driverNamesWithRevenueOver(collection, num){
-  return driversWithRevenueOver(collection, num).map(function(item){
+   driversWithRevenueOver(collection, num).map(function(item){
     return item.name
   });
 }
