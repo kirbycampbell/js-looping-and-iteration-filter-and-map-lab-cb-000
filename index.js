@@ -20,3 +20,9 @@ function exactMatch(collection, kv){
     return matches;
   });
 }
+
+function exactMatchToList(collection, kv){
+  return exactMatch(collection, kv).map(function(item){
+    return item.name;
+  });
+}
